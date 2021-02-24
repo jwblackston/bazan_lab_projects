@@ -8,9 +8,9 @@ dest = 'C:/Users/jbla12/Desktop/R Analyses/p65_project/sum_files/'
 src = 'C:/Users/jbla12/Desktop/R Analyses/p65_project/'
 txt_ID = 'statistics_Intensity_Sum_Ch=3_Img=1.csv'
 def moveSpecFiles(txt_ID, src, dest):
-    #src is the original file(s) destination
-    #dest is the destination for the files to end up in
-    #spec_txt is what the files end with that you want to ID
+    #src_path is the original file(s) destination
+    #dest_path is the destination for the files to end up in
+    #txt_id is what the files end with that you want to ID
     for foldername, subfolders, filenames in os.walk(src):
         for file in filenames:
             if file.endswith(txt_ID):
