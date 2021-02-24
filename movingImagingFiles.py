@@ -7,7 +7,7 @@ import os
 dest_path = 'C:/Users/jbla12/Desktop/R Analyses/p65_project/sum_files/'
 src_path = 'C:/Users/jbla12/Desktop/R Analyses/p65_project/'
 txt_id = 'statistics_Intensity_Sum_Ch=3_Img=1.csv'
-def moveSpecFiles(txt_ID, src, dest):
+def move_files(txt_ID, src, dest):
     #src_path is the original file(s) destination
     #dest_path is the destination for the files to end up in
     #txt_id is what the files end with that you want to ID
@@ -18,4 +18,4 @@ def moveSpecFiles(txt_ID, src, dest):
     print('Your files are ready sir/madam!')
 
 
-moveSpecFiles(txt_ID, src, dest)
+move_files(txt_ID, src, dest)
