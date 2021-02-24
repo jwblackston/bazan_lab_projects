@@ -17,5 +17,5 @@ def move_files(txt_ID, src, dest):
                 shutil.copy(os.path.join(foldername, file), dest)
     print('Your files are ready sir/madam!')
 
-
+if __name__ == "__main__":
 move_files(txt_ID, src, dest)
