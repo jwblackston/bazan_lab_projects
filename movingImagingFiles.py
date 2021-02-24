@@ -1,4 +1,4 @@
-#This function will sort through IMARIS imaging result data and return the files you want
+#This function will sort through *** imaging result data and return the files you want
 #modify source (src), the identifier of the files you want (txt_ID), and where you want them to go (dest) on your computer
 
 import shutil
